@@ -64,7 +64,6 @@ database.ref().on("child_added", function(childSnapshot){
   });
 
   database.ref().orderByChild("dateAdded").limitToLast(1).on("child_added", function(snapshot) {
-      // Change the HTML to reflect
       $("#name-display").html(snapshot.val().name);
       $("#email-display").html(snapshot.val().email);
       $("#age-display").html(snapshot.val().age);
