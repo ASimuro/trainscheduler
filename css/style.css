@@ -1,0 +1,29 @@
+
+.panel-heading{
+    color:white;
+    background:darkblue
+    
+}
+label{
+    color:black;
+}
+
+.jumbotron{
+    background:darkblue;
+    text-align: center;
+    color:white;    
+}
+
+button{
+    background:darkblue;
+    color:white;
+}
+
+.panel{
+border:3px solid darkblue;
+padding:5px;
+}
+
+#first{
+    margin-bottom:10px;
+}
